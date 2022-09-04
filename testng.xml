@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Regression">
+
+	<test name="Test1">
+
+		<classes>
+			<class name="com.testng.NewTest" />
+		</classes>
+
+	</test> <!-- Test -->
+
+	<test name="Test2">
+		<classes>
+			<class name="com.testng.Example1" />
+			<class name="com.testng.Example2" />
+		</classes>
+
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

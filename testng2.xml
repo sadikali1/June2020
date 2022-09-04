@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Smoke">
+
+	<test name="Test1">
+		<parameter name="Browser" value="chrome" />
+		<parameter name="UserName" value="devUser" />
+		<parameter name="Password" value="devPassword" />
+		<classes>
+			<class name="com.testng.TestParameter" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Test2">
+		<parameter name="UserName" value="QAUser" />
+		<parameter name="Password" value="QAPassword" />
+		<classes>
+			<class name="com.testng.TestParameter" />
+		</classes>
+
+	</test> <!-- Test -->
+
+	<test name="Test3">		
+		<classes>
+			<class name="com.testng.TestParameter" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
