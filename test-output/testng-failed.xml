@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]">
+  <test thread-count="5" name="Chome(failed)">
+    <parameter name="BrowserType" value="chrome"/>
+    <classes>
+      <class name="com.test.jcpennary.Seach">
+        <methods>
+          <include name="testClick"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.jcpennary.Seach -->
+    </classes>
+  </test> <!-- Chome(failed) -->
+  <test thread-count="5" name="Firefox(failed)">
+    <parameter name="BrowserType" value="firefox"/>
+    <classes>
+      <class name="com.test.jcpennary.Seach">
+        <methods>
+          <include name="testClick"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.jcpennary.Seach -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [Regression] -->

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="false" name="Regression">
+<suite parallel="tests" thread-count = "1" name="Regression">
 
-	<test name="Test1">
-
+	<test name="Chome" >
+		<parameter name="BrowserType" value="chrome" />
 		<classes>
-			<class name="com.testng.NewTest" />
+			<class name="com.test.jcpennary.Seach" />
 		</classes>
 
 	</test> <!-- Test -->
 
-	<test name="Test2">
+	<test name="Firefox">
+		<parameter name="BrowserType" value="firefox" />
 		<classes>
-			<class name="com.testng.Example1" />
-			<class name="com.testng.Example2" />
+			<class name="com.test.jcpennary.Seach" />
 		</classes>
 
 	</test> <!-- Test -->

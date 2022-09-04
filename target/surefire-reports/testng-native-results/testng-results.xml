@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-04T23:55:59 IST" name="Surefire suite" finished-at="2022-09-04T23:56:21 IST" duration-ms="22133">
+    <groups>
+    </groups>
+    <test started-at="2022-09-04T23:55:59 IST" name="Surefire test" finished-at="2022-09-04T23:56:21 IST" duration-ms="22133">
+      <class name="com.selenium.examples.IFrameTest">
+        <test-method signature="testIFrame()[pri:0, instance:com.selenium.examples.IFrameTest@34f5090e]" started-at="2022-09-04T23:55:59 IST" name="testIFrame" finished-at="2022-09-04T23:56:05 IST" duration-ms="6605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIFrame -->
+        <test-method signature="testNestedIFrame()[pri:0, instance:com.selenium.examples.IFrameTest@34f5090e]" started-at="2022-09-04T23:56:05 IST" name="testNestedIFrame" finished-at="2022-09-04T23:56:21 IST" duration-ms="15474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNestedIFrame -->
+      </class> <!-- com.selenium.examples.IFrameTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
